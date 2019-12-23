@@ -1,0 +1,126 @@
+body {
+
+    background-color:rgb(192, 190, 190);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container {
+    width: 960px;
+    height: 500px;
+    margin-top: 40px;
+    background-color: rgb(207, 201, 201);
+    /*padding: 50px 50px 10px 50px;*/
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+}
+
+.navbar {
+
+    background-color: rgb(54, 35, 54) !important;
+    border-bottom: solid 2px #eceff1;
+    color:white;
+}
+a {
+
+    color: white;
+
+}
+.btn {
+
+    color: white;
+    background-color:rgb(63, 43, 63);
+    display: block;
+   
+}
+
+.btn:hover {
+    background-color: rgb(79, 116, 79);
+    color: white;
+}
+
+
+h1 {
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+p {
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block !important;
+}
+
+#home {
+
+    text-align: center;
+    display: block;
+}
+
+#start.btn {
+
+    display: inline;
+    padding: 0 auto;
+
+}
+ 
+#scorecard {
+    display: none;
+}
+
+#quiz {
+    display: none;
+}
+
+.option.btn {
+    width: 50%;
+    text-align: start;
+    margin-bottom: 10px;   
+    font-size: 18px;
+}
+
+#inputInitial {
+    margin: 0px 10px 0px 10px;
+    
+}
+
+#highscore {
+    display:none;
+}
+
+@media (max-width: 576px){
+
+    .container {
+        width:100%;
+        height: auto;
+        padding: none;
+    }
+    h1 {
+        margin:0 auto;
+        font-size: 20px;
+        word-break: break-all;
+    }
+
+    .col-md-12 {
+        width:100%;
+        height:auto;
+        padding:20px;
+    }
+    
+    .btn{
+        margin-top: 20px;
+    }
+
+   .option.btn {
+       width: 80%;
+       margin-top: 10px;
+       text-align: left;
+   }
+}
+
+
+
+
