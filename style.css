@@ -60,6 +60,12 @@ p {
     display: block;
 }
 
+img {
+    background-color: transparent;
+    width: 0 auto;
+    height: 300px;
+}
+
 #start.btn {
 
     display: inline;
@@ -118,6 +124,12 @@ p {
        width: 80%;
        margin-top: 10px;
        text-align: left;
+   }
+
+   img {
+       margin: 0 auto;
+       height: auto;
+       width: 100%
    }
 }
 
